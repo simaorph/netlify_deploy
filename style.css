@@ -1,0 +1,64 @@
+body {
+	margin: 60px auto;
+	width: 80%;
+	padding: 20px;
+    color:black;
+	font-size: 16px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 255, 255);
+    background-image:url(lumiere.jpg);
+    text-align: center;
+	
+	}
+		
+h1{
+    border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+    border-color: black;
+    box-shadow: 6px 6px 6px #000;
+    text-align: center;
+    margin: 30px auto;
+    width: 35%;
+    padding: 10px;
+  }
+
+ul{
+    margin: 5px auto;
+    width: 30%;
+    padding: 5px;
+   }
+
+li{
+    margin: 5px auto;
+    width: 30%;
+    padding: 5px;
+  }
+
+video{
+    margin: 5px auto;
+    width: 30%;
+    padding: 5px;
+    float: center;
+}
+
+p{
+    margin: 5px auto;
+    width: 30%;
+    padding: 5px;
+}
+
+address{
+    margin: 5px auto;
+    width: 30%;
+    padding: 5px;
+}
+    a[href^="mailto"]::before {
+        content: "📧 ";
+    }
+    
+    a[href^="tel"]::before {
+        content: "📞 ";
+    }
+    text-align: center;
+    
